@@ -171,7 +171,7 @@ else:
     prop=' .ราคาทองคงที่ .'
 Result.append(prop)
 Result1=Result[0].split('.')
-print(Result1[1])
+
 
 
 
@@ -206,7 +206,7 @@ cal2 = (rateusd[0]+rateusd[1]+rateusd[2]+rateusd[3]+rateusd[4]+rateusd[5]+rateus
 fortune1 = '%.2f'%(cal2 - rateusd[-1])
 cal3='%.2f' %cal2
 
-print(rateusd)
+
 
 plt.figure(figsize=(12,6))
 left = [1, 2, 3, 4, 5,6,7,8,9,10] 
