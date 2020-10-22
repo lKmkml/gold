@@ -11,7 +11,8 @@ mydb = mysql.connector.connect(
   host="node4984-sv-gold.th.app.ruk-com.cloud",
   user="root",
   password="GPXhsy94719",
-  database="pythonlogin"
+  database="pythonlogin",
+  port="11044"
 )
 
 
