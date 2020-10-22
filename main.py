@@ -38,7 +38,7 @@ def febuary():
     find_word = soup.find_all("table",{"id":"DetailPlace_MainGridView"},"tbody")
     for i in find_word:
         i=str(i).split('กุมภาพันธ์')[1]
-        i=str(i).split('</font>')[1]
+        #i=str(i).split('</font>')[1]
         i=str(i).split('<td align="right"><font color="Black" face="Tahoma,Verdana" size="1">')[1]
         i=str(i).split(',')
         i=i[0]+i[1]
@@ -49,7 +49,7 @@ def march():
     find_word = soup.find_all("table",{"id":"DetailPlace_MainGridView"},"tbody")
     for i in find_word:
         i=str(i).split('มีนาคม')[1]
-        i=str(i).split('</font>')[1]
+        #i=str(i).split('</font>')[1]
         i=str(i).split('<td align="right"><font color="Black" face="Tahoma,Verdana" size="1">')[1]
         i=str(i).split(',')
         i=i[0]+i[1]
@@ -60,7 +60,7 @@ def april():
     find_word = soup.find_all("table",{"id":"DetailPlace_MainGridView"},"tbody")
     for i in find_word:
         i=str(i).split('เมษายน')[1]
-        i=str(i).split('</font>')[1]
+        #i=str(i).split('</font>')[1]
         i=str(i).split('<td align="right"><font color="Black" face="Tahoma,Verdana" size="1">')[1]
         i=str(i).split(',')
         i=i[0]+i[1]
@@ -71,7 +71,7 @@ def may():
     find_word = soup.find_all("table",{"id":"DetailPlace_MainGridView"},"tbody")
     for i in find_word:
         i=str(i).split('พฤษภาคม')[1]
-        i=str(i).split('</font>')[1]
+        #i=str(i).split('</font>')[1]
         i=str(i).split('<td align="right"><font color="Black" face="Tahoma,Verdana" size="1">')[1]
         i=str(i).split(',')
         i=i[0]+i[1]
@@ -82,7 +82,7 @@ def june():
     find_word = soup.find_all("table",{"id":"DetailPlace_MainGridView"},"tbody")
     for i in find_word:
         i=str(i).split('มิถุนายน')[1]
-        i=str(i).split('</font>')[1]
+       #i=str(i).split('</font>')[1]
         i=str(i).split('<td align="right"><font color="Black" face="Tahoma,Verdana" size="1">')[1]
         i=str(i).split(',')
         i=i[0]+i[1]
@@ -93,7 +93,7 @@ def july():
     find_word = soup.find_all("table",{"id":"DetailPlace_MainGridView"},"tbody")
     for i in find_word:
         i=str(i).split('กรกฎาคม')[1]
-        i=str(i).split('</font>')[1]
+        #i=str(i).split('</font>')[1]
         i=str(i).split('<td align="right"><font color="Black" face="Tahoma,Verdana" size="1">')[1]
         i=str(i).split(',')
         i=i[0]+i[1]
@@ -104,7 +104,7 @@ def august():
     find_word = soup.find_all("table",{"id":"DetailPlace_MainGridView"},"tbody")
     for i in find_word:
         i=str(i).split('สิงหาคม')[1]
-        i=str(i).split('</font>')[1]
+        #i=str(i).split('</font>')[1]
         i=str(i).split('<td align="right"><font color="Black" face="Tahoma,Verdana" size="1">')[1]
         i=str(i).split(',')
         i=i[0]+i[1]
@@ -115,7 +115,7 @@ def september():
     find_word = soup.find_all("table",{"id":"DetailPlace_MainGridView"},"tbody")
     for i in find_word:
         i=str(i).split('กันยายน')[1]
-        i=str(i).split('</font>')[1]
+        #i=str(i).split('</font>')[1]
         i=str(i).split('<td align="right"><font color="Black" face="Tahoma,Verdana" size="1">')[1]
         i=str(i).split(',')
         i=i[0]+i[1]
@@ -126,7 +126,7 @@ def october():
     find_word = soup.find_all("table",{"id":"DetailPlace_MainGridView"},"tbody")
     for i in find_word:
         i=str(i).split('ตุลาคม')[1]
-        i=str(i).split('</font>')[1]
+        #i=str(i).split('</font>')[1]
         i=str(i).split('<td align="right"><font color="Black" face="Tahoma,Verdana" size="1">')[1]
         i=str(i).split(',')
         i=i[0]+i[1]
