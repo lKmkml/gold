@@ -5,8 +5,6 @@ import re
 import requests
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
-import io
-import base64
 import mysql.connector
 
 mydb = mysql.connector.connect(
