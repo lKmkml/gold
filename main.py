@@ -12,7 +12,7 @@ mydb = mysql.connector.connect(
   user="root",
   password="GPXhsy94719",
   database="pythonlogin",
-  port="11044"
+  port="5432"
 )
 
 
@@ -23,10 +23,11 @@ mysql = MySQL(app)
 
 app.secret_key = 'mysecret'
 # Connec Database
-app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_HOST'] = 'node4984-sv-gold.th.app.ruk-com.cloud'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '1234'
+app.config['MYSQL_PASSWORD'] = 'GPXhsy94719'
 app.config['MYSQL_DB'] = 'pythonlogin'
+app.config['MYSQL_PORT'] = '5432'
 
 url="https://www.goldtraders.or.th/AvgPriceList.aspx"
 
