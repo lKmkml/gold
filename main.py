@@ -342,5 +342,6 @@ def result():
     return render_template('result.html',data=rows,prophecy=Result1[1])
 
 if __name__ == '__main__' :
-    app.run(host='0.0.0.0',debug=True)
+    app.debug = True
+    app.run(host='0.0.0.0',port=80)
 
