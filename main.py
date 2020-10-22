@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 import mysql.connector
 
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="node4984-sv-gold.th.app.ruk-com.cloud",
   user="root",
-  password="1234",
+  password="GPXhsy94719",
   database="pythonlogin"
 )
 
