@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 import mysql.connector
 
-mydb = mysql.connector.connect(host="node4984-sv-gold.th.app.ruk-com.cloud",user="root",password="GPXhsy94719",database="pythonlogin")
+mydb = mysql.connector.connect(host="node4984-sv-gold.th.app.ruk-com.cloud",user="root",password="DLIgcm42398",database="pythonlogin")
 
 
 mycursor = mydb.cursor()
@@ -16,7 +16,7 @@ app = Flask(__name__)
 mysql = MySQL(app)
 
 # Connec Database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:GPXhsy94719@node4984-sv-gold.th.app.ruk-com.cloud:5432/python'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:DLIgcm42398@node4984-sv-gold.th.app.ruk-com.cloud:3306/python'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 url="https://www.goldtraders.or.th/AvgPriceList.aspx"
